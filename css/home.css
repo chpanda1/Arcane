@@ -1,0 +1,46 @@
+* {
+    color: #2B4546;
+}
+.container-fluid img {
+    height: 50px;
+    width: 50px;
+}
+button {
+
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #65797A, #2D4748);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+button:hover {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.next-button {
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.margin-bottom {
+    margin-bottom: 0;
+}
+.imglogo {
+
+}
+@media screen and (max-width:415px) {
+    .margin-bottom {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:915px) {
+    .margin-bottom {
+        margin-bottom: 50px;
+    }
+}
