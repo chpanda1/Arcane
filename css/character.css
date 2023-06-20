@@ -2,3 +2,6 @@
     height: 50px;
     width: 50px;
 }
+.bgcolor1 {
+    background: linear-gradient(#22283E, #384265);
+}
