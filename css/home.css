@@ -1,6 +1,17 @@
 * {
     color: #2B4546;
 }
+body, html {
+    height: 100%;
+}
+.bg {
+    background-image: url("/images/jinxbg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 .container-fluid img {
     height: 50px;
     width: 50px;
@@ -34,8 +45,11 @@ button:hover {
 .imglogo {
 
 }
-div a {
-    color: rgba(28, 85, 23, 0.76);
+.bgcolor2 {
+    background: linear-gradient(#764F4A, #614544);
+}
+footer a, i {
+    color: #22283E;
 }
 div a:hover {
     color:  #fff;
