@@ -1,0 +1,14 @@
+* {
+    color: #2B4546;
+}
+body, html {
+    height: 100%;
+}
+.bg {
+    background-image: url("/images/jinxbg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
